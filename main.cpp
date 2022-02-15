@@ -12,7 +12,7 @@ int main(void) {
 			cout << char(word[i] - 32);
 		}
 		else {
-			cout << word << endl;
+			cout << "You must enter only the words which with small letters." << endl;
 			return 0;
 		}
 	}
